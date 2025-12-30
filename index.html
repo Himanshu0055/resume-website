@@ -2,75 +2,118 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Rajan Bhardwaj | B.Tech CSE (AI & ML)</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-<!-- HERO / BANNER -->
-<header class="hero">
-    <div class="hero-content">
-        <img src="profile.jpg" alt="Profile Photo" class="profile-pic">
-        <h1>Himanshu Rajan Bhardwaj</h1>
-        <p>B.Tech CSE (AI & ML) • Aspiring Software Engineer</p>
->
-
-        <div class="socials">
-            <a href="#"><i class="fa-solid fa-envelope"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#"><i class="fa-brands fa-github"></i></a>
+    <!-- HERO / BANNER -->
+    <header class="hero">
+        <div class="hero-content">
+            <img src="profile.jpg" alt="Himanshu Rajan Bhardwaj - Profile" class="profile-pic" loading="lazy">
+            <h1>Himanshu Rajan Bhardwaj</h1>
+            <p>B.Tech CSE (AI & ML) • Python Developer • Aspiring Software Engineer</p>
+            <div class="socials">
+                <a href="mailto:himanshu@example.com" target="_blank" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://linkedin.com/in/himanshu-bhardwaj" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/himanshubhardwaj" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
         </div>
-    </div>
-</header>
+    </header>
 
-<main class="container">
+    <main class="container">
+        <!-- ABOUT -->
+        <section class="card fade-up" role="region" aria-labelledby="about-heading">
+            <h2 id="about-heading"><i class="fas fa-user"></i> About Me</h2>
+            <p>
+                Final-year B.Tech CSE student specializing in <strong>AI & ML</strong> from Patna, Bihar. Passionate Python developer building 
+                production-ready desktop apps with <strong>CustomTkinter, SQLite, Matplotlib</strong>. Experienced in GUI development, 
+                database integration, password hashing, and data visualization. Creating polished, dark-themed applications with role-based 
+                access and security best practices.
+            </p>
+        </section>
 
-    <section class="card fade-up">
-        <h2>About Me</h2>
-        <p>
-            I am a Computer Science student specializing in Artificial Intelligence
-            and Machine Learning. I enjoy building clean software projects and
-            continuously improving my skills.
-        </p>
-    </section>
+        <!-- SKILLS -->
+        <section class="card fade-up" role="region" aria-labelledby="skills-heading">
+            <h2 id="skills-heading"><i class="fas fa-gears"></i> Skills</h2>
+            <div class="skills">
+                <span><i class="fab fa-python"></i> Python</span>
+                <span><i class="fab fa-cuttlefish"></i> C/C++</span>
+                <span>CustomTkinter</span>
+                <span><i class="fas fa-database"></i> SQLite</span>
+                <span><i class="fas fa-chart-line"></i> Matplotlib</span>
+                <span>HTML/CSS/JS</span>
+                <span><i class="fas fa-brain"></i> Machine Learning</span>
+                <span><i class="fab fa-git-alt"></i> Git/GitHub</span>
+            </div>
+        </section>
 
-    <section class="card fade-up">
-        <h2>Skills</h2>
-        <div class="skills">
-            <span>Python</span>
-            <span>C / C++</span>
-            <span>HTML & CSS</span>
-            <span>SQL</span>
-            <span>Machine Learning</span>
-            <span>Git & GitHub</span>
-        </div>
-    </section>
+        <!-- PROJECTS -->
+        <section class="card fade-up" role="region" aria-labelledby="projects-heading">
+            <h2 id="projects-heading"><i class="fas fa-project-diagram"></i> Projects</h2>
+            <ul class="projects-list">
+                <li>
+                    <strong>Expense Tracker Desktop App</strong> 
+                    <span class="tech">Python • CustomTkinter • SQLite • Matplotlib • hashlib</span><br>
+                    Modern dark-themed personal finance app with role-based access, password hashing, data visualization, and expense analytics.
+                </li>
+                <li>
+                    <strong>Speech-to-Text Assistant (Max)</strong> 
+                    <span class="tech">Python • Whisper • yapper-tts • Pygame</span><br>
+                    Real-time voice assistant with TTS/STT using Yapper-TTS, Whisper transcription, and CPU-optimized audio processing.
+                </li>
+                <li>
+                    <strong>Snake Game</strong> 
+                    <span class="tech">Python • Pygame</span><br>
+                    Classic arcade game with smooth controls, scoring, and high-score persistence.
+                </li>
+                <li>
+                    <strong>Student Management System</strong> 
+                    <span class="tech">Python • Tkinter • SQLite</span><br>
+                    CRUD desktop app for student records with search, validation, and database backup.
+                </li>
+            </ul>
+        </section>
 
-    <section class="card fade-up">
-        <h2>Projects</h2>
-        <ul>
-            <li>Expense Tracker – Python, SQL</li>
-            <li>Snake Game – Python (Pygame)</li>
-            <li>Student Management System – Tkinter</li>
-            <li>Resume Website – HTML & CSS</li>
-        </ul>
-    </section>
+        <!-- EDUCATION -->
+        <section class="card fade-up" role="region" aria-labelledby="education-heading">
+            <h2 id="education-heading"><i class="fas fa-graduation-cap"></i> Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>B.Tech - Computer Science Engineering (AI & ML)</h3>
+                    <p><strong>2023 - 2027</strong> • CGPA: [Update]</p>
+                    <span class="location">Patna, Bihar, India</span>
+                </div>
+            </div>
+        </section>
 
-    <section class="card fade-up">
-        <h2>Education</h2>
-        <p>
-            B.Tech – Computer Science (AI & ML)<br>
-            2023 – 2027
-        </p>
-    </section>
+        <!-- CERTIFICATIONS / EXTRAS -->
+        <section class="card fade-up" role="region" aria-labelledby="extras-heading">
+            <h2 id="extras-heading"><i class="fas fa-award"></i> Extras</h2>
+            <div class="extras-grid">
+                <div>Location: <strong>Patna, Bihar</strong></div>
+                <div>Open to: <strong>Internships • Full-time SDE</strong></div>
+                <div>Portfolio: <strong>GitHub Projects</strong></div>
+            </div>
+        </section>
+    </main>
 
-</main>
+    <footer>
+        <p><i class="fas fa-code"></i> Built with ❤️ by Himanshu • © 2025</p>
+    </footer>
 
-<footer>
-    <p>© 2025</p>
-</footer>
-
+    <script>
+        // Smooth scroll & active section highlighting
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
 </body>
 </html>
